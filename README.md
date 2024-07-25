@@ -5,7 +5,6 @@ This script allows you to delete all of your messages from a specific Discord DM
 ## Prerequisites
 
 - Node.js (version 12 or later)
-- `discord.js-selfbot-v13`
 - `axios`
 - `readline-sync`
 - `chalk@4.1.2`
@@ -16,7 +15,7 @@ This script allows you to delete all of your messages from a specific Discord DM
 2. Navigate to the project directory and install the required packages:
 
     ```bash
-    npm install discord.js-selfbot-v13 axios readline-sync chalk@4.1.2
+    npm install axios readline-sync chalk@4.1.2
     ```
 
 3. Input your Discord bot token in the `config/config.json` file:
