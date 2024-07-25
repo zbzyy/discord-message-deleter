@@ -1,6 +1,7 @@
 const axios = require('axios');
 const readlineSync = require('readline-sync');
 const config = require('../config/config.json');
+const chalk = require('chalk');
 
 const delay = (min, max) => new Promise(resolve => setTimeout(resolve, Math.random() * (max - min) + min));
 
@@ -22,7 +23,7 @@ const fetchAllSelfMessages = async (channelId, token, userId) => {
     let allMessages = [];
     let lastMessageId;
 
-    console.log("Fetching messages...");
+    console.log(chalk.gray('Fetching messages...'));
 
     try {
         while (true) {
