@@ -58,3 +58,7 @@ You may encounter the following error:
 ![image](https://github.com/user-attachments/assets/a6c933e7-3375-41a2-b56a-f864aa08dccf)
 
 This error occurs when the bot attempts to delete a message related to a user starting a call. The script will continue functioning normally despite this issue. A future update will address this problem by checking for and handling such errors in a more effective way.
+
+## Privacy and Trustworthiness
+
+It’s important to be aware of privacy concerns and the trustworthiness of the platforms you use. Discord has faced criticism regarding user privacy and data handling practices. For more information on why Discord may be considered untrustworthy, you can review [PrivacySpy's analysis on Discord](https://privacyspy.org/product/discord/). Always be cautious with your data and consider using platforms that align better with your privacy expectations.
